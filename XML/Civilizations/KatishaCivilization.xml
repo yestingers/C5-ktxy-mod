@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+文件名: KatishaCivilization.xml
+作用: 定义卡提希娅文明的基础属性
+用途: 游戏识别并加载这个新文明
+-->
+<GameData>
+	<!-- 定义文明 -->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_KATISHA</Type>
+			<!-- 文明的内部标识符 -->
+			<Description>TXT_KEY_CIV_KATISHA_DESC</Description>
+			<!-- 文明描述文本键 -->
+			<ShortDescription>TXT_KEY_CIV_KATISHA_SHORT_DESC</ShortDescription>
+			<!-- 文明简短描述文本键 -->
+			<Adjective>TXT_KEY_CIV_KATISHA_ADJECTIVE</Adjective>
+			<!-- 文明形容词文本键 -->
+			<Civilopedia>TXT_KEY_CIV_KATISHA_PEDIA</Civilopedia>
+			<!-- 文明百科全书文本键 -->
+			<DawnOfCivilizationMovie>Art/Cinematics/Dawn_of_Civilization_Movies/dawn_generic.fmv</DawnOfCivilizationMovie>
+			<!-- 文明黎明电影 -->
+			<DawnOfCivilizationMovieRadius>0.0</DawnOfCivilizationMovieRadius>
+			<PortraitIndex>0</PortraitIndex>
+			<!-- 头像索引 -->
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<!-- 透明图集 -->
+			<ArtDefineTag>CIVILIZATION_ROMAN</ArtDefineTag>
+			<!-- 艺术定义标签，复用罗马的 -->
+			<MovieDefineTag>CIVILIZATION_ROMAN</MovieDefineTag>
+			<!-- 电影定义标签，复用罗马的 -->
+			<SoundtrackTag>GENERIC</SoundtrackTag>
+			<!-- 音乐标签 -->
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<!-- 艺术风格类型 -->
+			<UnitArtInfoModifier>0</UnitArtInfoModifier>
+			<BackgroundImage>Art/Cinematics/Dawn_of_Civilization_Movies/DawnGeneric.dds</BackgroundImage>
+		</Row>
+	</Civilizations>
+
+	<!-- 文明领导者关联 -->
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATISHA</CivilizationType>
+			<LeaderheadType>LEADER_KATISHA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<!-- 文明特色建筑（暂无） -->
+	<Civilization_Buildings>
+		<!-- 此处可以添加该文明特有的建筑 -->
+	</Civilization_Buildings>
+
+	<!-- 文明特色单位 -->
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATISHA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitType>UNIT_KATISHA</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATISHA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<UnitType>UNIT_KATISHA_BIG</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

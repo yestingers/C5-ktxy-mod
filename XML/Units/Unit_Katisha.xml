@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+文件名: Unit_Katisha.xml
+作用: 定义卡提希娅特殊单位的基础属性
+用途: 游戏识别并加载这个特殊单位，用于替代初始开拓者
+-->
+<GameData>
+	<!-- 单位定义 -->
+	<Units>
+		<Row>
+			<Type>UNIT_KATISHA</Type>
+			<!-- 单位内部标识符 -->
+			<Class>UNITCLASS_SETTLER</Class>
+			<!-- 单位类别，继承开拓者类别 -->
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<!-- 前置科技 -->
+			<Combat>15</Combat>
+			<!-- 战斗值较低，符合小卡形态特性 -->
+			<Cost>106</Cost>
+			<!-- 生产成本 -->
+			<Moves>2</Moves>
+			<!-- 移动力 -->
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<!-- 战斗类型 -->
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- 行动领域 -->
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<!-- 默认AI行为 -->
+			<Description>TXT_KEY_UNIT_KATISHA_DESC</Description>
+			<!-- 单位描述文本键 -->
+			<Civilopedia>TXT_KEY_UNIT_KATISHA_PEDIA</Civilopedia>
+			<!-- 单位百科全书文本键 -->
+			<Strategy>TXT_KEY_UNIT_KATISHA_STRATEGY</Strategy>
+			<!-- 单位战略提示文本键 -->
+			<Help>TXT_KEY_UNIT_KATISHA_HELP</Help>
+			<!-- 单位帮助文本键 -->
+			<FortifyModifier>0</FortifyModifier>
+			<WorkRate>0</WorkRate>
+			<NumFreeLuxGood>0</NumFreeLuxGood>
+			<LeaderExperience>0</LeaderExperience>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<Pillage>false</Pillage>
+			<FoundLakes>false</FoundLakes>
+			<FoundCoast>false</FoundCoast>
+			<FoundFreshWater>false</FoundFreshWater>
+			<FoundAbroad>false</FoundAbroad>
+			<BarbarianFree>false</BarbarianFree>
+			<BarbarianCostScaling>false</BarbarianCostScaling>
+			<AlwaysHeal>false</AlwaysHeal>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<GoldPerTurnMaintenance>0</GoldPerTurnMaintenance>
+			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<RangedStrike>false</RangedStrike>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<MoveRate>MOVE_RATE_NORMAL</MoveRate>
+			<!-- 特殊能力：当单位位于城市时提供加成 -->
+			<Special>UNIT_SPECIAL_SETTLER</Special>
+			<UnitModel>Units/Katisha/KatishaSmall.fxsxml</UnitModel>
+		</Row>
+	</Units>
+
+	<!-- 单位图片定义 -->
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_KATISHA</UnitType>
+			<!-- 指定该单位的3D模型脚本 -->
+			<FunctionName>UnitInitialize(Unit)</FunctionName>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<!-- 单位艺术定义 -->
+	<UnitArtInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_KATISHA</Type>
+			<!-- 艺术定义类型 -->
+			<Nickname>"katisha_unit"</Nickname>
+			<!-- 单位昵称 -->
+			<HotKey>None</HotKey>
+			<WorldSoundscapeScriptId>AS3D_UNITIONS</WorldSoundscapeScriptId>
+			<ScriptId>KatishaUnit</ScriptId>
+			<Formation>FORMATION_TYPE_UNIQUE</Formation>
+		</Row>
+	</UnitArtInfos>
+
+	<UnitArtInfoCulturalVariants>
+		<Row>
+			<UnitArtInfoType>ART_DEF_UNIT_KATISHA</UnitArtInfoType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<Asset>Units/Katisha/KatishaSmall.fxsxml</Asset>
+			<!-- 模型文件 -->
+		</Row>
+	</UnitArtInfoCulturalVariants>
+
+	<!-- 单位免费晋升 -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_KATISHA</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+			<!-- 添加只防御的晋升，限制其攻击性，符合小卡形态特性 -->
+		</Row>
+		<Row>
+			<UnitType>UNIT_KATISHA</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+			<!-- 增加城市作战惩罚，鼓励用于建设而非战斗 -->
+		</Row>
+		<Row>
+			<UnitType>UNIT_KATISHA</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUS</PromotionType>
+			<!-- 无防御奖励，保持其脆弱性 -->
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- 单位能力定义（虽然文明5没有直接的单位加成城市功能，但可通过Lua实现） -->
+	<Promotions>
+		<Row>
+			<Type>PROMOTION_KATISHA_CITY_BONUS</Type>
+			<Description>TXT_KEY_PROMOTION_KATISHA_CITY_BONUS</Description>
+			<Help>TXT_KEY_PROMOTION_KATISHA_CITY_BONUS_HELP</Help>
+			<Civilopedia>TXT_KEY_PROMOTION_KATISHA_CITY_BONUS_PEDIA</Civilopedia>
+			<Sound>AS3D_IF_LEVELUP</Sound>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>KATISHA_PROMOTION_ATLAS</IconAtlas>
+		</Row>
+	</Promotions>
+</GameData>

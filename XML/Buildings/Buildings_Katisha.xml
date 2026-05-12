@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+文件名: Buildings_Katisha.xml
+作用: 定义卡提希娅文明相关的特殊建筑
+用途: 为小卡驻城时提供加成效果
+-->
+<GameData>
+	<!-- 卡提希娅特殊建筑 - 当小卡驻扎在城市时激活的虚拟建筑 -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_KATISHA_PRESENCE</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>NULL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_KATISHA_PRESENCE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_KATISHA_PRESENCE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_KATISHA_PRESENCE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_KATISHA_PRESENCE_HELP</Help>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+		</Row>
+	</Buildings>
+
+	<!-- 建筑的产出加成 -->
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KATISHA_PRESENCE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KATISHA_PRESENCE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KATISHA_PRESENCE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<!-- 建筑的产出百分比加成 -->
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_KATISHA_PRESENCE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KATISHA_PRESENCE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KATISHA_PRESENCE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>30</Yield>
+		</Row>
+	</Building_YieldModifiers>
+</GameData>
