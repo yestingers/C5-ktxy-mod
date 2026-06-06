@@ -1,97 +1,120 @@
-# 《文明5》卡提希娅文明Mod - 目录结构说明
+# 卡提希娅文明 V0.1.2
 
-## Mod名称：鸣潮-卡提希娅文明(测试中，无法正常使用)
-## 作者：Mod开发者
-## 版本：1.0.0
+这是《文明5：美丽新世界》Super Power 10.93 的最小测试版本。工程只实现：
 
-## 完整目录结构
+- 可选择的 `CIVILIZATION_CARTETHYIA`
+- 领袖 `LEADER_CARTETHYIA`
+- 特性 `TRAIT_DUAL_RESONANCE`
+- 所有城市科研与生产各提高 5%
+- 首都建立后赠送一次 `UNIT_CARTETHYIA`
+- 卡提希娅战斗力 30、移动力 2、视野 2、零维护且不可生产或购买
 
-大卡小卡/
-├── ModInfo.xml                     # Mod基本信息文件
-├── Core/
-│   └── Civilizations/
-│       └── KatishaCivilization.xml # 文明核心定义
-├── Assets/
-│   ├── GamePlay/
-│   │   ├── XML/
-│   │   │   ├── Civilizations/      # 文明XML定义
-│   │   │   │   └── KatishaCivilization.xml
-│   │   │   ├── Leaders/            # 领袖XML定义
-│   │   │   │   └── LeaderKatisha.xml
-│   │   │   ├── Units/              # 单位XML定义
-│   │   │   │   ├── Unit_Katisha.xml      # 小卡单位
-│   │   │   │   └── Unit_KatishaBig.xml   # 大卡单位
-│   │   │   └── Buildings_Katisha.xml     # 建筑定义
-│   │   └── SQL/
-│   │       ├── Civilizations/      # 文明相关SQL
-│   │       │   └── Katisha.sql
-│   │       └── Units/              # 单位相关SQL
-│   │           └── KatishaUnitForms.sql
-│   └── Lua/                        # Lua脚本
-│       └── KatishaUnitLogic.lua    # 主逻辑脚本
-└── Database/                       # 数据库文件（预留）
+V0.1 不实现双形态、驻城加成、主动技能、AOE、冷却、复活、复杂 UI、自定义模型、动画、语音或 DDS。
 
-## 文件功能说明
+## V0.1.2 加载顺序修复
 
-### ModInfo.xml
-定义Mod的基本信息，包括名称、版本、作者等，供ModBuddy和游戏识别此Mod。
+- `Lua.log` 的实际错误为 SP `PopulateUniques.lua:887` 读取到空的 `trait`。
+- `Database.log` 同时报告 `TRAIT_DUAL_RESONANCE` 不存在。
+- SP 的 `Gameplay/SQL/Deletor.sql` 会清空 `Traits`、`Buildings`、`BuildingClasses`、
+  `Units`、`UnitClasses` 及关联表。
+- 旧版没有声明 SP 依赖和引用，卡提希娅数据可能先加载、再被 SP 清除。
+- V0.1.2 在 `<Dependencies>` 中声明 CIV5MPDLL 47+ 与 SP 10+，并在
+  `<References>` 中引用 SP，强制本模组在 SP 完成数据库重建后加载。
 
-### Core/Civilizations/KatishaCivilization.xml
-定义卡提希娅文明的核心属性，包括文明标识、描述、领袖关联等。
+V0.1.1 中移除非必要 `Civilization_UnitClassOverrides`、隐藏百科单位条目的修改继续保留。
 
-### Assets/GamePlay/XML/Leaders/LeaderKatisha.xml
-定义卡提希娅领袖的属性和AI倾向，包括外交偏好、游戏风格等。
+## 工程依据
 
-### Assets/GamePlay/XML/Units/Unit_Katisha.xml
-定义小卡形态（智慧形态）的属性，作为初始开拓者单位的替代。
+知识库规则：
 
-### Assets/GamePlay/XML/Units/Unit_KatishaBig.xml
-定义大卡形态（战争形态）的属性，具备更高的战斗力和战斗技能。
+- XML 的每个 `Row` 对应数据库一行，同一 `Row` 不重复列。
+- Type、Tag、表名、字段名和 Atlas 使用英文标识。
+- XML/Lua 语法标点使用 ASCII 字符。
+- 所有 `TXT_KEY` 均在 `Language_en_US` 中提供文本。
+- SP 子模组必须声明依赖与引用，确保 SP 的清表重建先执行。
+- 修改后需要清缓存并检查 `Database.log`、`xml.log` 和 `Lua.log`。
 
-### Assets/GamePlay/XML/Buildings_Katisha.xml
-定义小卡驻城时的加成效果，通过虚拟建筑实现城市增益。
+本机数据库验证：
 
-### Assets/GamePlay/SQL/Civilizations/Katisha.sql
-定义文明、领袖、单位的多语言文本，包括描述、策略提示等。
+- 已核对 `Civilizations`、`Leaders`、`Traits`、`Buildings`、`BuildingClasses`、
+  `Building_YieldModifiers`、`Units`、`UnitClasses`、`Civilization_Leaders`、
+  `Civilization_UnitClassOverrides`、`Leader_Traits`、`IconTextureAtlases` 等表的字段。
+- `Traits` 没有直接的全城市科研/生产百分比字段，因此使用
+  `Traits.FreeBuilding -> BUILDING_DUAL_RESONANCE`。
+- 隐藏建筑通过两个 `Building_YieldModifiers` Row 提供科研与生产各 5%。
+- 临时 Atlas、PortraitIndex 和基础美术引用来自本机 BNW 数据库。
 
-### Assets/GamePlay/SQL/Units/KatishaUnitForms.sql
-定义单位形态切换相关的数据库条目和平衡信息。
+运行环境：
 
-### Assets/Lua/KatishaUnitLogic.lua
-实现卡提希娅单位的完整游戏逻辑，包括：
-- 双形态切换系统
-- 小卡城市加成系统
-- 文明推演技能
-- 终焉洪流AOE技能
-- 动态战斗力系统
-- 冷却和平衡机制
+- 必须启用 CIV5MPDLL 47+。
+- 必须启用 Super Power - Rise of Hegemony 10+；本版本按本机 SP 10.93 制作。
 
-## 主要功能特性
+仍需本地运行验证：
 
-### 1. 双形态系统
-- 小卡形态（智慧）：城市支援专用，提供科研+20%、生产+25%、粮食+30%、伟人点数+25%加成
-- 大卡形态（战争）：战斗专用，拥有动态战斗力和终焉洪流AOE技能
+- `Traits.FreeBuilding` 是否在当前 DLL/大型整合 Mod 环境中对新建城市持续生效。
+- `InGameUIAddin` 与 `Modding.OpenSaveData` 在新游戏、读档和同时启用其他 Mod 时的行为。
+- 临时复用的领袖场景、文明图标、单位模型和旗帜是否正常显示。
+- 与 SP 10.93 之外版本或其他大型 Mod 的兼容性。
 
-### 2. 动态战斗力系统
-- 战斗力公式：35 + 0.4 × 总人口 + 2 × 城市数量（上限135）
-- 每3回合更新一次，更新后保持稳定直到下次更新
+## 文件与加载
 
-### 3. 技能系统
-- 文明推演（小卡）：获得当前科技30%进度，少量文化与黄金
-- 终焉洪流（大卡）：前方3格扇形范围AOE攻击
+以下文件通过 `OnModActivated -> UpdateDatabase` 按顺序加载：
 
-### 4. 平衡设计
-- 各项技能有冷却时间
-- 形态切换有限制
-- 战斗力有上限防止过度强大
+1. `XML/Cartethyia_Text.xml`
+2. `XML/Cartethyia_Building.xml`
+3. `XML/Cartethyia_Trait.xml`
+4. `XML/Cartethyia_Unit.xml`
+5. `XML/Cartethyia_Leader.xml`
+6. `XML/Cartethyia_Civilization.xml`
 
-## 安装说明
+`Lua/Cartethyia_StartUnit.lua` 通过 `InGameUIAddin` 加载，并设置为
+`Import into VFS = true`。XML 文件不需要 VFS 导入。
 
-1. 将整个"大卡小卡"文件夹复制到文明5的Mods目录
-2. 在ModBuddy中打开此项目
-3. 编译Mod
-4. 在游戏中启用"鸣潮-卡提希娅文明"Mod
+这些 ModBuddy 设置属于常见 Civ5 Mod 经验，知识库没有完整覆盖，最终以本地构建后的
+`.modinfo` 和游戏日志为准。
 
-## 开发原则
+## 本地测试
 
-本Mod严格按照"可运行、可逐步扩展、适合新手维护"的原则开发，代码结构清晰，注释完整。
+1. 在 Civ5 用户目录的 `config.ini` 中设置：
+
+   ```ini
+   [Debugging]
+   EnableTuner = 1
+   ValidateGameDatabase = 1
+   ```
+
+2. 关闭 DB Browser 中打开的 `Civ5DebugDatabase.db` 和 `Localization-Merged.db`。
+3. 将整个 `CartethyiaCivilization` 目录复制到 Civ5 的 `MODS` 目录。
+4. 清理 Civ5 用户目录下的 `cache`。
+5. 启动游戏，确认 CIV5MPDLL、SP 10.93 和“卡提希娅文明 V0.1.2”均已启用。
+6. 进入文明选择界面，确认完整文明列表和右侧滚动条恢复，且卡提希娅可被选择。
+7. 检查文明、领袖、特性文本是否正常显示，且没有裸露的 `TXT_KEY`。
+8. 建立首都，确认首都格生成一个卡提希娅单位。
+9. 确认单位战斗力 30、移动力 2、零维护，且城市生产列表中无法建造。
+10. 查看城市科研与生产修正，确认双生回响各提供 5%。
+11. 保存并重新读取，确认不会再次生成卡提希娅。
+12. 让卡提希娅死亡后保存并读取，确认不会复活。
+13. 检查：
+
+   - `Documents\My Games\Sid Meier's Civilization 5\Logs\Database.log`
+   - `Documents\My Games\Sid Meier's Civilization 5\Logs\xml.log`
+   - `Documents\My Games\Sid Meier's Civilization 5\Logs\Lua.log`
+
+## 排错顺序
+
+1. 先处理 `xml.log` 中最早的 XML 解析错误。
+2. 再处理 `Database.log` 中的 `Invalid Reference`。
+3. 若出现 Atlas 错误，逐字核对 Atlas、PortraitIndex 和基础游戏数据库记录。
+4. 若文明列表再次中断，先检查 `.modinfo` 是否仍保留 SP 的 Dependency 和 Reference，
+   再检查 `Database.log` 是否出现 `TRAIT_DUAL_RESONANCE` 缺失。
+5. 若没有赠送单位，检查 `Lua.log` 是否出现脚本加载信息，并确认 Lua 是
+   `InGameUIAddin` 且 VFS 为 true。
+6. 若读档重复赠送，记录地图种子、玩家编号和 `Lua.log`，再调整持久化策略。
+7. 每次修复后关闭数据库工具、清理缓存并重新加载 Mod。
+
+## V0.2 建议
+
+- 先替换文明徽记、领袖头像、黎明图和单位旗帜，再考虑复杂机制。
+- 为卡提希娅制作独立单位模型前，先验证 V0.1 的数据库和读档稳定性。
+- 双形态应作为独立里程碑设计，明确切换规则、状态保存和 AI 行为。
+- AOE 与主动技能需要单独验证目标选择、伤害归属、城市交互和多人同步。

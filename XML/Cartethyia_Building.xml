@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BuildingClasses>
+    <Row>
+      <Type>BUILDINGCLASS_DUAL_RESONANCE</Type>
+      <Description>TXT_KEY_BUILDING_DUAL_RESONANCE</Description>
+      <DefaultBuilding>BUILDING_DUAL_RESONANCE</DefaultBuilding>
+    </Row>
+  </BuildingClasses>
+
+  <Buildings>
+    <Row>
+      <Type>BUILDING_DUAL_RESONANCE</Type>
+      <BuildingClass>BUILDINGCLASS_DUAL_RESONANCE</BuildingClass>
+      <Cost>-1</Cost>
+      <FaithCost>-1</FaithCost>
+      <GreatWorkCount>-1</GreatWorkCount>
+      <Description>TXT_KEY_BUILDING_DUAL_RESONANCE</Description>
+      <Help>TXT_KEY_BUILDING_DUAL_RESONANCE_HELP</Help>
+      <NeverCapture>true</NeverCapture>
+      <NukeImmune>true</NukeImmune>
+      <ConquestProb>0</ConquestProb>
+      <ArtDefineTag>PALACE</ArtDefineTag>
+      <PortraitIndex>19</PortraitIndex>
+      <IconAtlas>BW_ATLAS_1</IconAtlas>
+    </Row>
+  </Buildings>
+
+  <Building_YieldModifiers>
+    <Row>
+      <BuildingType>BUILDING_DUAL_RESONANCE</BuildingType>
+      <YieldType>YIELD_SCIENCE</YieldType>
+      <Yield>5</Yield>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_DUAL_RESONANCE</BuildingType>
+      <YieldType>YIELD_PRODUCTION</YieldType>
+      <Yield>5</Yield>
+    </Row>
+  </Building_YieldModifiers>
+</GameData>

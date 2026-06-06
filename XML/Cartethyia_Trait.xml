@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+    <Row>
+      <Type>TRAIT_DUAL_RESONANCE</Type>
+      <Description>TXT_KEY_TRAIT_DUAL_RESONANCE</Description>
+      <ShortDescription>TXT_KEY_TRAIT_DUAL_RESONANCE_SHORT</ShortDescription>
+      <FreeBuilding>BUILDING_DUAL_RESONANCE</FreeBuilding>
+    </Row>
+  </Traits>
+</GameData>

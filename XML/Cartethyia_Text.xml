@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DESC">
+      <Text>卡提希娅文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_SHORT_DESC">
+      <Text>卡提希娅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_ADJECTIVE">
+      <Text>卡提希娅的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_PEDIA">
+      <Text>这是以卡提希娅为领袖的文明。V0.1 专注于建立稳定的文明、领袖、特性与开局特殊单位框架。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_STRATEGY">
+      <Text>利用双生回响提供的科研与生产加成稳步发展。卡提希娅拥有很高的初始战斗力，但她是不可补充的唯一单位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DAWN">
+      <Text>卡提希娅，回响正在等待你的回应。以智慧推动城市，以力量守护文明，让新的道路在风中展开。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA">
+      <Text>卡提希娅文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_HEADING_1">
+      <Text>文明概述</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_TEXT_1">
+      <Text>卡提希娅文明 V0.1 是一个用于验证基础数据、加载顺序和 Lua 开局赠送逻辑的简化版本。</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA">
+      <Text>卡提希娅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA_PEDIA">
+      <Text>卡提希娅是本文明的领袖。当前版本使用游戏原有领袖画面作为临时美术。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA">
+      <Text>卡提希娅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_HEADING_1">
+      <Text>卡提希娅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_TEXT_1">
+      <Text>她以双生回响引导文明，在知识与行动之间维持平衡。</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE">
+      <Text>所有城市的科研与生产提高5%。首都建立后获得一个不可补充的唯一单位卡提希娅。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE_SHORT">
+      <Text>双生回响</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE">
+      <Text>双生回响核心</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE_HELP">
+      <Text>为所在城市提供5%科研与5%生产。该建筑由文明特性自动授予，不能建造。</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA">
+      <Text>卡提希娅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_HELP">
+      <Text>卡提希娅文明的唯一开局单位。战斗力30、移动力2、无需维护，不能生产或购买。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_STRATEGY">
+      <Text>卡提希娅在游戏早期极为强大，但死亡后不会重新出现。谨慎使用她进行防御、探索与关键战斗。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_PEDIA">
+      <Text>V0.1 仅实现固定战斗力的单一形态。双形态、主动技能和范围攻击留待后续版本设计。</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_01">
+      <Text>回响之庭</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_02">
+      <Text>风弦港</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_03">
+      <Text>澄空城</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_04">
+      <Text>鸣潮湾</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_05">
+      <Text>静谧高地</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_06">
+      <Text>逐风原</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_07">
+      <Text>共鸣谷</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_08">
+      <Text>潮声堡</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_09">
+      <Text>星灯城</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_10">
+      <Text>远歌港</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_11">
+      <Text>白羽丘</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_12">
+      <Text>终风塔</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_0">
+      <Text>清羽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_1">
+      <Text>流音</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_2">
+      <Text>星澜</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_3">
+      <Text>风信</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_4">
+      <Text>潮痕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_5">
+      <Text>白露</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

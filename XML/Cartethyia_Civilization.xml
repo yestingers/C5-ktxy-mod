@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_CARTETHYIA</Type>
+      <Description>TXT_KEY_CIV_CARTETHYIA_DESC</Description>
+      <Civilopedia>TXT_KEY_CIV_CARTETHYIA_PEDIA</Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_CARTETHYIA</CivilopediaTag>
+      <Strategy>TXT_KEY_CIV_CARTETHYIA_STRATEGY</Strategy>
+      <Playable>true</Playable>
+      <AIPlayable>true</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_CARTETHYIA_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_CARTETHYIA_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_BYZANTIUM</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+      <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+      <ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+      <AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+      <MapImage>MapAmerica512.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV_CARTETHYIA_DAWN</DawnOfManQuote>
+      <DawnOfManImage>DOM_Washington.dds</DawnOfManImage>
+      <DawnOfManAudio>AS2D_DOM_SPEECH_UNITED_STATES</DawnOfManAudio>
+    </Row>
+  </Civilizations>
+
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType>
+      <LeaderheadType>LEADER_CARTETHYIA</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+
+  <Civilization_CityNames>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_01</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_02</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_03</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_04</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_05</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_06</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_07</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_08</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_09</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_10</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_11</CityName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><CityName>TXT_KEY_CITY_NAME_CARTETHYIA_12</CityName></Row>
+  </Civilization_CityNames>
+
+  <Civilization_SpyNames>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><SpyName>TXT_KEY_SPY_NAME_CARTETHYIA_0</SpyName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><SpyName>TXT_KEY_SPY_NAME_CARTETHYIA_1</SpyName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><SpyName>TXT_KEY_SPY_NAME_CARTETHYIA_2</SpyName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><SpyName>TXT_KEY_SPY_NAME_CARTETHYIA_3</SpyName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><SpyName>TXT_KEY_SPY_NAME_CARTETHYIA_4</SpyName></Row>
+    <Row><CivilizationType>CIVILIZATION_CARTETHYIA</CivilizationType><SpyName>TXT_KEY_SPY_NAME_CARTETHYIA_5</SpyName></Row>
+  </Civilization_SpyNames>
+</GameData>

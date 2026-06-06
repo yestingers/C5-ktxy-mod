@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d7b3423c-8f4c-4253-992e-71e2419c53a6" version="3">
+  <Properties>
+    <Name>卡提希娅文明 V0.1.2</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>[COLOR_CYAN]双生回响：科研与生产各提高5%，开局获得卡提希娅。[ENDCOLOR]</Teaser>
+    <Description>《文明5：美丽新世界》Super Power 10.93 子模组。V0.1.2 修复数据库加载顺序导致的文明选择界面崩溃。</Description>
+    <Authors>hunxi</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2969a0a-e4da-41cc-9e0b-19b29aa971d8" minversion="47" maxversion="999" title="(1)CIV5MPDLL" />
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="(2) Super Power - Rise of Hegemony" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" title="Expansion 2 - Brave New World" />
+  </Dependencies>
+  <References>
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="(2) Super Power - Rise of Hegemony" />
+  </References>
+  <Blocks />
+  <Files>
+    <File import="0">XML/Cartethyia_Text.xml</File>
+    <File import="0">XML/Cartethyia_Building.xml</File>
+    <File import="0">XML/Cartethyia_Trait.xml</File>
+    <File import="0">XML/Cartethyia_Unit.xml</File>
+    <File import="0">XML/Cartethyia_Leader.xml</File>
+    <File import="0">XML/Cartethyia_Civilization.xml</File>
+    <File import="1">Lua/Cartethyia_StartUnit.lua</File>
+    <File import="0">Art/README.txt</File>
+    <File import="0">README.md</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Cartethyia_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Unit.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Civilization.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Cartethyia_StartUnit.lua">
+      <Name>Cartethyia Start Unit</Name>
+      <Description>Grants Cartethyia once after the capital exists.</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

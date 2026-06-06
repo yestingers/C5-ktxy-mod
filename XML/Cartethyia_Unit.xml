@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <UnitClasses>
+    <Row>
+      <Type>UNITCLASS_CARTETHYIA</Type>
+      <Description>TXT_KEY_UNIT_CARTETHYIA</Description>
+      <MaxPlayerInstances>1</MaxPlayerInstances>
+      <DefaultUnit>UNIT_CARTETHYIA</DefaultUnit>
+    </Row>
+  </UnitClasses>
+
+  <Units>
+    <Row>
+      <Type>UNIT_CARTETHYIA</Type>
+      <Description>TXT_KEY_UNIT_CARTETHYIA</Description>
+      <Civilopedia>TXT_KEY_UNIT_CARTETHYIA_PEDIA</Civilopedia>
+      <Strategy>TXT_KEY_UNIT_CARTETHYIA_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_CARTETHYIA_HELP</Help>
+      <Combat>30</Combat>
+      <Cost>-1</Cost>
+      <FaithCost>-1</FaithCost>
+      <Moves>2</Moves>
+      <BaseSightRange>2</BaseSightRange>
+      <Class>UNITCLASS_CARTETHYIA</Class>
+      <CombatClass>UNITCOMBAT_MELEE</CombatClass>
+      <Domain>DOMAIN_LAND</Domain>
+      <DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+      <MilitarySupport>true</MilitarySupport>
+      <MilitaryProduction>false</MilitaryProduction>
+      <Pillage>true</Pillage>
+      <AdvancedStartCost>-1</AdvancedStartCost>
+      <CombatLimit>100</CombatLimit>
+      <XPValueAttack>3</XPValueAttack>
+      <XPValueDefense>3</XPValueDefense>
+      <NoMaintenance>true</NoMaintenance>
+      <ShowInPedia>false</ShowInPedia>
+      <UnitArtInfo>ART_DEF_UNIT_LONGSWORDSMAN</UnitArtInfo>
+      <MoveRate>BIPED</MoveRate>
+      <UnitFlagIconOffset>35</UnitFlagIconOffset>
+      <PortraitIndex>36</PortraitIndex>
+      <IconAtlas>UNIT_ATLAS_1</IconAtlas>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+    </Row>
+  </Units>
+
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_CARTETHYIA</UnitType>
+      <UnitAIType>UNITAI_ATTACK</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CARTETHYIA</UnitType>
+      <UnitAIType>UNITAI_DEFENSE</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+</GameData>
