@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DESC"><Text>Nation of Enlightenment</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_SHORT_DESC"><Text>Nation of Enlightenment</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_ADJECTIVE"><Text>Enlightened</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_PEDIA"><Text>The Nation of Enlightenment flourishes under Cartethyia's guidance. The Saint's Twin Oath unites a wisdom form that governs cities and a power form that defends them.</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_STRATEGY"><Text>Every city gains +10% Science, Culture, and Production; the current Capital receives +20% in total. Station wisdom-form Cartethyia in a friendly city for six yield bonuses, or switch to power form for war. She joins at game start, grows stronger with your era, and returns to the current Capital 10 turns after death.</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DAWN"><Text>Cartethyia, let the morning wind carry wisdom to your cities and courage to your people. May the Nation of Enlightenment shine beneath a clear sky.</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA"><Text>Nation of Enlightenment</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_HEADING_1"><Text>Overview</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_TEXT_1"><Text>The Nation of Enlightenment is guided by Cartethyia and the Saint's Twin Oath. Every city gains +10% Science, Culture, and Production; the current Capital gains +20% in total, even while the hero is away or dead. At game start, one unique Cartethyia joins in wisdom form. If she dies, she returns to the current Capital after 10 turns at every game speed.</Text></Row>
+
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA"><Text>Cartethyia</Text></Row>
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA_PEDIA"><Text>Through the Saint's Twin Oath, Cartethyia serves as both a wise governor and a warrior saint. Both forms share the same health, experience, earned promotions, and skill cooldowns.</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA"><Text>Cartethyia</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_HEADING_1"><Text>Cartethyia</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_TEXT_1"><Text>The Saint's Twin Oath grants a unique military hero at game start, before a Capital is required. In wisdom form she supports her city; in power form she commands the wind. Switching consumes remaining movement and is unavailable after attacking or using a skill; it does not heal, restore attacks, or reset cooldowns. After death she returns to the current Capital in 10 turns.</Text></Row>
+
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE"><Text>+10% Science, Culture and Production in cities; +20% in the Capital.[NEWLINE]Start with Cartethyia: wisdom governs, power fights; revives 10 turns after death.[NEWLINE]Divine Edict finishes production; Wind of Judgment strikes three tiles.</Text></Row>
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE_SHORT"><Text>Saint's Twin Oath</Text></Row>
+
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE"><Text>Nation of Enlightenment</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE_HELP"><Text>+10% Science, Culture, and Production in this city. An automatic civilization benefit that does not depend on the hero's location, form, or survival. Cannot be constructed.</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_CAPITAL"><Text>Capital of Enlightenment</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_CAPITAL_HELP"><Text>An additional +10% Science, Culture, and Production in the current Capital, for +20% in total with Nation of Enlightenment. Follows the Capital if it moves. Cannot be constructed.</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_WISDOM"><Text>The Saint's Governance</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_WISDOM_HELP"><Text>While wisdom-form Cartethyia occupies this friendly city center: +10 and +30% each to Food, Production, Gold, Science, Culture, and Faith. Flat bonuses enter base yields before normal modifiers; food consumption is unchanged. Percentages add to the civilization benefit: Science, Culture, and Production total +40% here, or +50% in the Capital. Tourism and other yields are excluded. Removed when she leaves, changes form, dies, or the city changes owner. Cannot be constructed.</Text></Row>
+
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA"><Text>Cartethyia</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_HELP"><Text>A unique hero granted at game start, with 2 Sight and no maintenance. Wisdom: 2 Movement, city governance, Divine Edict. Power: 3 Movement, five special promotions, Wind of Judgment. Strength grows by era; Ancient wisdom / power: 6 / 30. Cannot be trained, purchased, captured, or formed into a corps. Returns to the current Capital 10 turns after death; waits if no legal Capital tile is available.</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_STRATEGY"><Text>Keep wisdom-form Cartethyia in your city center for six yields of +10 and +30%, and use Divine Edict to complete one legal production item. Switch to power form before battle for terrain movement, adjacent enemy suppression, and a three-tile wind strike. Plan around the movement cost of switching and the separate 20-turn Standard and 5-turn skill cooldowns.</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_PEDIA"><Text>v1.0: One hero, two military forms. Wisdom has 2 Movement; power has 3. Their era-based Combat Strength (power / wisdom) is Ancient 30 / 6, Classical 40 / 8, Medieval 55 / 11, Renaissance 75 / 15, Industrial 100 / 20, Modern 130 / 26, World War 170 / 34, Atomic 220 / 44, Information 300 / 60, and Future 400 / 80.[NEWLINE]Wisdom grants its friendly city center +10 and +30% to each of Food, Production, Gold, Science, Culture, and Faith. Divine Edict completes only the current legal unit, building, wonder, or finite project, without added overflow; an empty queue or continuous process is invalid. Cooldown: 20 own turns on Standard, scaled by game speed.[NEWLINE]Power ignores extra terrain movement costs and enemy Zones of Control, gives adjacent enemy military units a -50% combat modifier, gains +25% ranged defense, and keeps full combat effectiveness while damaged. Wind of Judgment targets one of six directions, hitting visible enemy land or naval military units on the next three tiles for 70%, 60%, and 50% of their maximum health, rounded down. It can kill; it does not damage cities, civilians, aircraft, neutral, friendly, or hidden units. Cooldown: 5 own turns at every speed.[NEWLINE]Skills require remaining movement and no attack, switch, or skill earlier that turn, then consume all remaining movement. Switching is limited to once per turn and also consumes remaining movement. Health, damage, experience, earned promotions, and both cooldowns are shared; switching or entering a new era does not heal or reset them. Power promotions disappear in wisdom form. [NEWLINE]Granted at game start in wisdom form, without requiring a Capital. After death on turn T, she returns at the current Capital from turn T+10 onward, at every game speed. Revival restores full health and wisdom form with current-era strength; it preserves her name, experience, level, earned general promotions, and skill cooldown expiry turns. Cooldowns continue during the wait. She cannot act on the revival turn. Without a Capital or a legal unblocked Capital tile, revival waits and retries on the next own turn. The same rule applies after every death; saving and loading do not reset the wait.</Text></Row>
+
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_IDENTITY"><Text>Unique Saint</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_IDENTITY_HELP"><Text>Cannot be captured or formed into a corps. This identity remains active in both forms.</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_WIND"><Text>Windborne</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_WIND_HELP"><Text>Power form only: +1 Movement and ignores extra terrain movement costs. Does not grant mountain passage or unlock embarkation.</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_AURA"><Text>Saint's Presence</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_AURA_HELP"><Text>Power form only: enemy military units at war within 1 tile suffer a -50% Combat Strength modifier against all opponents. Does not affect cities. Identical auras do not stack; the effect ends outside range or when its source is lost. This is a combat modifier, not a promise to halve final strength.</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_FREE"><Text>Unbound</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_FREE_HELP"><Text>Power form only: ignores enemy Zones of Control. Cannot move through enemy-occupied tiles.</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_SHIELD"><Text>Sacred Shelter</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_SHIELD_HELP"><Text>Power form only: +25% defensive Combat Strength against ranged attacks.</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_UNYIELDING"><Text>Unyielding Will</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_UNYIELDING_HELP"><Text>Power form only: fights at full effectiveness while damaged. Damage and death still apply normally.</Text></Row>
+
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_01"><Text>Court of Resonance</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_02"><Text>Windchime Harbor</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_03"><Text>Clear Sky City</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_04"><Text>Tidecall Bay</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_05"><Text>Silent Highlands</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_06"><Text>Windward Plain</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_07"><Text>Resonant Vale</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_08"><Text>Tidewatch Keep</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_09"><Text>Starlight City</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_10"><Text>Far Song Harbor</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_11"><Text>Whitefeather Isle</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_12"><Text>Final Wind Fortress</Text></Row>
+
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_0"><Text>Qingyu</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_1"><Text>Liuyin</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_2"><Text>Xinglan</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_3"><Text>Fengxin</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_4"><Text>Chaohen</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_5"><Text>Bailu</Text></Row>
+  </Language_en_US>
+
+  <Language_zh_CN>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DESC"><Text>启明之国</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_SHORT_DESC"><Text>启明之国</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_ADJECTIVE"><Text>启明之国的</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_PEDIA"><Text>启明之国在卡提希娅的引导下繁荣。圣女的双生誓约将辅政的智慧形态与守护文明的力量形态合于一身。</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_STRATEGY"><Text>所有城市科研、文化、生产力各+10%，当前首都合计各+20%。让智慧形态的卡提希娅驻守己方城市，获得六项产出加成；战时切换力量形态。开局即获赠英雄，战力随时代成长；阵亡10回合后在当前首都复活。</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DAWN"><Text>卡提希娅，愿晨风为城市带来智慧，为人民带来勇气。让启明之国在澄澈的天光下繁荣。</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA"><Text>启明之国</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_HEADING_1"><Text>文明概览</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_TEXT_1"><Text>启明之国由卡提希娅以圣女的双生誓约引导。所有城市科研、文化、生产力各+10%，当前首都合计各+20%；英雄离城或阵亡不影响文明加成。开局即获赠唯一的卡提希娅，初始为智慧形态，无需先建立首都。阵亡10回合后在当前首都复活，各游戏速度相同。</Text></Row>
+
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA"><Text>卡提希娅</Text></Row>
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA_PEDIA"><Text>卡提希娅以圣女的双生誓约引导文明，兼具辅政的智慧与临战的力量。两种形态共享生命、经验、已获晋升和技能冷却。</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA"><Text>卡提希娅</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_HEADING_1"><Text>卡提希娅</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_TEXT_1"><Text>圣女的双生誓约在开局授予唯一军事英雄，无需先建立首都。智慧形态辅政城市，力量形态御风临战。切换消耗剩余行动，攻击或使用技能后不能切换；切换不会恢复生命、攻击次数或技能冷却。阵亡10回合后在当前首都复活。</Text></Row>
+
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE"><Text>城市科研、文化、生产力+10%，首都合计+20%。[NEWLINE]开局获赠卡提希娅：智慧辅政，力量御风。[NEWLINE]神启完成建造，裁决直线破敌；阵亡10回合后于首都复活。</Text></Row>
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE_SHORT"><Text>圣女的双生誓约</Text></Row>
+
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE"><Text>启明之国</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE_HELP"><Text>该城科研、文化、生产力各+10%。由文明特性自动授予，与英雄位置、形态及存活状态无关，不能建造。</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_CAPITAL"><Text>启明王都</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_CAPITAL_HELP"><Text>当前首都科研、文化、生产力额外各+10%，与启明之国合计各+20%。首都迁移后随之转移，不能建造。</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_WISDOM"><Text>圣女辅政</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_WISDOM_HELP"><Text>智慧形态的卡提希娅位于己方城市中心时，该城食物、生产力、金币、科研、文化、信仰各+10且各+30%。固定值先加入基础产出，再参加正常修正；食物人口消耗照常。百分比与文明加成相加：科研、文化、生产力合计+40%，首都合计+50%。不包含旅游等其他产出。离城、切换形态、阵亡或城市转手后撤销，不能建造。</Text></Row>
+
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA"><Text>卡提希娅</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_HELP"><Text>开局获赠的唯一英雄，2视野、免维护。智慧形态2移动，拥有城市辅政与神启敕令；力量形态3移动，拥有五项专属晋升与裁决之风。战力随时代成长，远古智慧6、力量30。不能生产、购买、被俘或编入军团。阵亡10回合后在当前首都复活；无首都或出生格被阻挡时延后重试。</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_STRATEGY"><Text>让智慧形态的卡提希娅驻守己方城市中心，获得六项各+10且+30%的辅政收益，以神启敕令完成一项合法建造。交战前切换力量形态，利用御风移动、相邻威压与直线三格攻击。规划切换耗尽行动的代价，以及分别为标准速度20回合和固定5回合的技能冷却。</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_PEDIA"><Text>v1.0：同一英雄的两种军事形态。智慧2移动，力量3移动。各时代基础战力（力量／智慧）为远古30／6、古典40／8、中古55／11、启蒙75／15、工业100／20、电气130／26、全战170／34、原子220／44、信息300／60、未来400／80。[NEWLINE]智慧形态位于己方城市中心时，为该城食物、生产力、金币、科研、文化、信仰各+10且各+30%。神启敕令仅完成当前合法在建的一项单位、建筑、奇观或有限项目，不产生技能额外溢出；空队列与持续转换过程不能使用。冷却标准速度20个己方回合，按游戏速度缩放。[NEWLINE]力量形态忽略普通地形额外移动消耗与敌方控制区，相邻敌方军事单位战斗力修正-50%，自身远程防御+25%，受伤不降低战斗效能。裁决之风选择六个方向之一，对直线第1、2、3格内已显形的交战敌方陆海军事单位，分别造成其最大生命70%、60%、50%的直接伤害，向下取整，可击杀；不伤害城市、平民、飞机、中立、友军或隐藏单位。所有速度冷却均为5个己方回合。[NEWLINE]施放技能须有剩余行动且本回合未攻击、切换或使用技能，成功后耗尽剩余行动。每回合最多切换一次，也会耗尽剩余行动。两形态共享生命、伤势、经验、已获晋升与两项冷却；切换和进入新时代不回血、不重置冷却。力量专属晋升在智慧形态失效。[NEWLINE]开局即获赠智慧形态英雄，无需先建立首都。于第T回合阵亡后，从第T+10回合起在当前首都复活，各游戏速度相同。复活时满血、智慧形态、使用当前时代战力；保留名字、经验、等级、通用晋升与两技能的冷却到期回合，等待期间冷却自然推进。复活当回合不能行动。无首都或首都出生格不合法、被阻挡时保留等待状态，在下一己方回合重试。每次阵亡均可再次复活，存读档不会重置等待。</Text></Row>
+
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_IDENTITY"><Text>唯一圣女</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_IDENTITY_HELP"><Text>无法被俘或编入军团。该身份在两种形态下始终保留。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_WIND"><Text>御风而行</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_WIND_HELP"><Text>仅力量形态：移动力+1，忽略普通地形的额外移动消耗；不因此获得穿山或未解锁的渡海能力。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_AURA"><Text>圣女威压</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_AURA_HELP"><Text>仅力量形态：相邻1格内的交战敌方军事单位战斗力修正-50%，对其与所有对手的战斗生效，不影响城市本体。同名威压不叠加；离开范围或失去来源后撤销。这是战斗力修正，不保证最终战力恰好减半。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_FREE"><Text>自在之身</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_FREE_HELP"><Text>仅力量形态：无视敌方控制区的移动限制，仍不能穿过敌军占据的格子。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_SHIELD"><Text>圣光庇护</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_SHIELD_HELP"><Text>仅力量形态：遭受远程攻击时防御战斗力+25%。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_UNYIELDING"><Text>不屈意志</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_UNYIELDING_HELP"><Text>仅力量形态：受伤不降低自身战斗效能；伤害与死亡仍正常发生。</Text></Row>
+
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_01"><Text>回响之庭</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_02"><Text>风铃港</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_03"><Text>澄空城</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_04"><Text>鸣潮湾</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_05"><Text>静谧高地</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_06"><Text>逐风原</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_07"><Text>共鸣谷</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_08"><Text>潮声堡</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_09"><Text>星灯城</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_10"><Text>远歌港</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_11"><Text>白羽岛</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_12"><Text>终风塞</Text></Row>
+
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_0"><Text>清羽</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_1"><Text>流音</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_2"><Text>星澜</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_3"><Text>风信</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_4"><Text>潮痕</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_5"><Text>白露</Text></Row>
+  </Language_zh_CN>
+
+  <Language_zh_Hant_HK>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DESC"><Text>啟明之國</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_SHORT_DESC"><Text>啟明之國</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_ADJECTIVE"><Text>啟明之國的</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_PEDIA"><Text>啟明之國在卡提希婭的引導下繁榮。聖女的雙生誓約將輔政的智慧形態與守護文明的力量形態合於一身。</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_STRATEGY"><Text>所有城市科研、文化、生產力各+10%，當前首都合計各+20%。讓智慧形態的卡提希婭駐守己方城市，獲得六項產出加成；戰時切換力量形態。開局即獲贈英雄，戰力隨時代成長；陣亡10回合後在當前首都復活。</Text></Row>
+    <Row Tag="TXT_KEY_CIV_CARTETHYIA_DAWN"><Text>卡提希婭，願晨風為城市帶來智慧，為人民帶來勇氣。讓啟明之國在澄澈的天光下繁榮。</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA"><Text>啟明之國</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_HEADING_1"><Text>文明概覽</Text></Row>
+    <Row Tag="TXT_KEY_CIV5_CARTETHYIA_TEXT_1"><Text>啟明之國由卡提希婭以聖女的雙生誓約引導。所有城市科研、文化、生產力各+10%，當前首都合計各+20%；英雄離城或陣亡不影響文明加成。開局即獲贈唯一的卡提希婭，初始為智慧形態，無需先建立首都。陣亡10回合後在當前首都復活，各遊戲速度相同。</Text></Row>
+
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA"><Text>卡提希婭</Text></Row>
+    <Row Tag="TXT_KEY_LEADER_CARTETHYIA_PEDIA"><Text>卡提希婭以聖女的雙生誓約引導文明，兼具輔政的智慧與臨戰的力量。兩種形態共享生命、經驗、已獲晉升和技能冷卻。</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA"><Text>卡提希婭</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_HEADING_1"><Text>卡提希婭</Text></Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CARTETHYIA_TEXT_1"><Text>聖女的雙生誓約在開局授予唯一軍事英雄，無需先建立首都。智慧形態輔政城市，力量形態御風臨戰。切換消耗剩餘行動，攻擊或使用技能後不能切換；切換不會恢復生命、攻擊次數或技能冷卻。陣亡10回合後在當前首都復活。</Text></Row>
+
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE"><Text>城市科研、文化、生產力+10%，首都合計+20%。[NEWLINE]開局獲贈卡提希婭：智慧輔政，力量御風。[NEWLINE]神啟完成建造，裁決直線破敵；陣亡10回合後於首都復活。</Text></Row>
+    <Row Tag="TXT_KEY_TRAIT_DUAL_RESONANCE_SHORT"><Text>聖女的雙生誓約</Text></Row>
+
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE"><Text>啟明之國</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_DUAL_RESONANCE_HELP"><Text>該城科研、文化、生產力各+10%。由文明特性自動授予，與英雄位置、形態及存活狀態無關，不能建造。</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_CAPITAL"><Text>啟明王都</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_CAPITAL_HELP"><Text>當前首都科研、文化、生產力額外各+10%，與啟明之國合計各+20%。首都遷移後隨之轉移，不能建造。</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_WISDOM"><Text>聖女輔政</Text></Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTETHYIA_WISDOM_HELP"><Text>智慧形態的卡提希婭位於己方城市中心時，該城食物、生產力、金幣、科研、文化、信仰各+10且各+30%。固定值先加入基礎產出，再參加正常修正；食物人口消耗照常。百分比與文明加成相加：科研、文化、生產力合計+40%，首都合計+50%。不包含旅遊等其他產出。離城、切換形態、陣亡或城市轉手後撤銷，不能建造。</Text></Row>
+
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA"><Text>卡提希婭</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_HELP"><Text>開局獲贈的唯一英雄，2視野、免維護。智慧形態2移動，擁有城市輔政與神啟敕令；力量形態3移動，擁有五項專屬晉升與裁決之風。戰力隨時代成長，遠古智慧6、力量30。不能生產、購買、被俘或編入軍團。陣亡10回合後在當前首都復活；無首都或出生格被阻擋時延後重試。</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_STRATEGY"><Text>讓智慧形態的卡提希婭駐守己方城市中心，獲得六項各+10且+30%的輔政收益，以神啟敕令完成一項合法建造。交戰前切換力量形態，利用御風移動、相鄰威壓與直線三格攻擊。規劃切換耗盡行動的代價，以及分別為標準速度20回合和固定5回合的技能冷卻。</Text></Row>
+    <Row Tag="TXT_KEY_UNIT_CARTETHYIA_PEDIA"><Text>v1.0：同一英雄的兩種軍事形態。智慧2移動，力量3移動。各時代基礎戰力（力量／智慧）為遠古30／6、古典40／8、中古55／11、啟蒙75／15、工業100／20、電氣130／26、全戰170／34、原子220／44、資訊300／60、未來400／80。[NEWLINE]智慧形態位於己方城市中心時，為該城食物、生產力、金幣、科研、文化、信仰各+10且各+30%。神啟敕令僅完成當前合法在建的一項單位、建築、奇觀或有限項目，不產生技能額外溢出；空佇列與持續轉換過程不能使用。冷卻標準速度20個己方回合，按遊戲速度縮放。[NEWLINE]力量形態忽略普通地形額外移動消耗與敵方控制區，相鄰敵方軍事單位戰鬥力修正-50%，自身遠程防禦+25%，受傷不降低戰鬥效能。裁決之風選擇六個方向之一，對直線第1、2、3格內已顯形的交戰敵方陸海軍事單位，分別造成其最大生命70%、60%、50%的直接傷害，向下取整，可擊殺；不傷害城市、平民、飛機、中立、友軍或隱藏單位。所有速度冷卻均為5個己方回合。[NEWLINE]施放技能須有剩餘行動且本回合未攻擊、切換或使用技能，成功後耗盡剩餘行動。每回合最多切換一次，也會耗盡剩餘行動。兩形態共享生命、傷勢、經驗、已獲晉升與兩項冷卻；切換和進入新時代不回血、不重置冷卻。力量專屬晉升在智慧形態失效。[NEWLINE]開局即獲贈智慧形態英雄，無需先建立首都。於第T回合陣亡後，從第T+10回合起在當前首都復活，各遊戲速度相同。復活時滿血、智慧形態、使用當前時代戰力；保留名字、經驗、等級、通用晉升與兩技能的冷卻到期回合，等待期間冷卻自然推進。復活當回合不能行動。無首都或首都出生格不合法、被阻擋時保留等待狀態，在下一己方回合重試。每次陣亡均可再次復活，存讀檔不會重置等待。</Text></Row>
+
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_IDENTITY"><Text>唯一聖女</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_IDENTITY_HELP"><Text>無法被俘或編入軍團。該身份在兩種形態下始終保留。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_WIND"><Text>御風而行</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_WIND_HELP"><Text>僅力量形態：移動力+1，忽略普通地形的額外移動消耗；不因此獲得穿山或未解鎖的渡海能力。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_AURA"><Text>聖女威壓</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_AURA_HELP"><Text>僅力量形態：相鄰1格內的交戰敵方軍事單位戰鬥力修正-50%，對其與所有對手的戰鬥生效，不影響城市本體。同名威壓不疊加；離開範圍或失去來源後撤銷。這是戰鬥力修正，不保證最終戰力恰好減半。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_FREE"><Text>自在之身</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_FREE_HELP"><Text>僅力量形態：無視敵方控制區的移動限制，仍不能穿過敵軍佔據的格子。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_SHIELD"><Text>聖光庇護</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_SHIELD_HELP"><Text>僅力量形態：遭受遠程攻擊時防禦戰鬥力+25%。</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_UNYIELDING"><Text>不屈意志</Text></Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARTETHYIA_UNYIELDING_HELP"><Text>僅力量形態：受傷不降低自身戰鬥效能；傷害與死亡仍正常發生。</Text></Row>
+
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_01"><Text>回響之庭</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_02"><Text>風鈴港</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_03"><Text>澄空城</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_04"><Text>鳴潮灣</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_05"><Text>靜謐高地</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_06"><Text>逐風原</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_07"><Text>共鳴谷</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_08"><Text>潮聲堡</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_09"><Text>星燈城</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_10"><Text>遠歌港</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_11"><Text>白羽島</Text></Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARTETHYIA_12"><Text>終風塞</Text></Row>
+
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_0"><Text>清羽</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_1"><Text>流音</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_2"><Text>星瀾</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_3"><Text>風信</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_4"><Text>潮痕</Text></Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CARTETHYIA_5"><Text>白露</Text></Row>
+  </Language_zh_Hant_HK>
+</GameData>

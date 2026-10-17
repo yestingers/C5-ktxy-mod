@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+  <Grid ID="CartethyiaPanel" Anchor="R,T" Offset="16,186" Size="304,236" Style="GridBlackIndent8" Hidden="1" ConsumeMouse="1">
+    <Label Anchor="L,T" Offset="14,12" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_CARTETHYIA_UI_TITLE" />
+    <Label ID="FormLabel" Anchor="L,T" Offset="14,42" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="276" />
+    <Label ID="SwitchStatus" Anchor="L,T" Offset="14,72" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="276" />
+    <Label ID="WisdomStatus" Anchor="L,T" Offset="14,120" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="276" />
+    <Label ID="PowerStatus" Anchor="L,T" Offset="14,174" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="276" />
+    <Container ID="DirectionBox" Anchor="L,T" Offset="12,234" Size="280,216" Hidden="1">
+      <Label Anchor="C,T" Offset="0,0" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_CARTETHYIA_UI_DIRECTION_TITLE" />
+      <Button ID="DirectionNW" Anchor="L,T" Offset="32,28" Size="88,30" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_NW" /></Button>
+      <Button ID="DirectionNE" Anchor="R,T" Offset="32,28" Size="88,30" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_NE" /></Button>
+      <Button ID="DirectionW" Anchor="L,T" Offset="0,66" Size="88,30" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_W" /></Button>
+      <Button ID="DirectionE" Anchor="R,T" Offset="0,66" Size="88,30" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_E" /></Button>
+      <Button ID="DirectionSW" Anchor="L,T" Offset="32,104" Size="88,30" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_SW" /></Button>
+      <Button ID="DirectionSE" Anchor="R,T" Offset="32,104" Size="88,30" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_SE" /></Button>
+      <Label ID="PreviewLabel" Anchor="C,T" Offset="0,142" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="276" />
+      <Button ID="CloseDirections" Anchor="C,B" Offset="0,0" Size="152,28" Style="SmallButton"><Label Anchor="C,C" Font="TwCenMT16" String="TXT_KEY_CARTETHYIA_UI_CANCEL" /></Button>
+    </Container>
+  </Grid>
+</Context>

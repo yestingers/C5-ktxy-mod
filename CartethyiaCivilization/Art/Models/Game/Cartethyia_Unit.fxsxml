@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Asset>
+  <Mesh file="Cartethyia_Unit.gr2" source="Tool" />
+  <Animation file="Cartethyia_idlea.gr2" ec="1000" name="Cartethyia_idlea" source="Tool" />
+  <Animation file="Cartethyia_fidgeta.gr2" ec="1040" name="Cartethyia_fidgeta" source="Tool" />
+  <Animation file="Cartethyia_idlea_trans_idleb.gr2" ec="1020" name="Cartethyia_idlea_trans_idleb" source="Tool" />
+  <Animation file="Cartethyia_idleb.gr2" ec="2000" name="Cartethyia_idleb" source="Tool" />
+  <Animation file="Cartethyia_fidgetb.gr2" ec="2040" name="Cartethyia_fidgetb" source="Tool" />
+  <Animation file="Cartethyia_idleb_trans_idlea.gr2" ec="2020" name="Cartethyia_idleb_trans_idlea" source="Tool" />
+  <Animation file="Cartethyia_fortify.gr2" ec="1500" name="Cartethyia_fortify" source="Tool" />
+  <Animation file="Cartethyia_fortify_idle.gr2" ec="1520" name="Cartethyia_fortify_idle" source="Tool" />
+  <Animation file="Cartethyia_fortify_idle_fidget.gr2" ec="1540" name="Cartethyia_fortify_idle_fidget" source="Tool" />
+  <Animation file="Cartethyia_fortify_idle_trans_combat_ready_idle.gr2" ec="1560" name="Cartethyia_fortify_idle_trans_combat_ready_idle" source="Tool" />
+  <Animation file="Cartethyia_fortify_idle_trans_idlea.gr2" ec="1580" name="Cartethyia_fortify_idle_trans_idlea" source="Tool" />
+  <Animation file="Cartethyia_combat_ready.gr2" ec="1600" name="Cartethyia_combat_ready" source="Tool" />
+  <Animation file="Cartethyia_combat_ready_idle.gr2" ec="1620" name="Cartethyia_combat_ready_idle" source="Tool" />
+  <Animation file="Cartethyia_combat_ready_idle_trans_idlea.gr2" ec="1640" name="Cartethyia_combat_ready_idle_trans_idlea" source="Tool" />
+  <Animation file="Cartethyia_shuffle.gr2" ec="1450" name="Cartethyia_shuffle" source="Tool" />
+  <Animation file="Cartethyia_run.gr2" ec="1400" name="Cartethyia_run" source="Tool" />
+  <Animation file="Cartethyia_stop_run.gr2" ec="1440" name="Cartethyia_stop_run" source="Tool" />
+  <Animation file="Cartethyia_stop_run_trans_idleb.gr2" ec="2440" name="Cartethyia_stop_run_trans_idleb" source="Tool" />
+  <Animation file="Cartethyia_charge_run.gr2" ec="1120" name="Cartethyia_charge_run" source="Tool" />
+  <Animation file="Cartethyia_charge_attack.gr2" ec="1140" name="Cartethyia_charge_attack" source="Tool" />
+  <Animation file="Cartethyia_attacka.gr2" ec="1100" name="Cartethyia_attacka" source="Tool" />
+  <Animation file="Cartethyia_attackb.gr2" ec="2100" name="Cartethyia_attackb" source="Tool" />
+  <Animation file="Cartethyia_attack_city.gr2" ec="1160, 1180" name="Cartethyia_attack_city" source="Tool" />
+  <Animation file="Cartethyia_victory.gr2" ec="1800" name="Cartethyia_victory" source="Tool" />
+  <Animation file="Cartethyia_bombard_defense.gr2" ec="1280" name="Cartethyia_bombard_defense" source="Tool" />
+  <Animation file="Cartethyia_bombard_defense_idle.gr2" ec="1285" name="Cartethyia_bombard_defense_idle" source="Tool" />
+  <Animation file="Cartethyia_bombard_defense_idle_trans_idlea.gr2" ec="1290" name="Cartethyia_bombard_defense_idle_trans_idlea" source="Tool" />
+  <Animation file="Cartethyia_deatha.gr2" ec="1200" name="Cartethyia_deatha" source="Tool" />
+  <Animation file="Cartethyia_death_idlea.gr2" ec="1220" name="Cartethyia_death_idlea" source="Tool" />
+  <Animation file="Cartethyia_deathb.gr2" ec="2200" name="Cartethyia_deathb" source="Tool" />
+  <Animation file="Cartethyia_death_idleb.gr2" ec="2220" name="Cartethyia_death_idleb" source="Tool" />
+  <Texture file="Cartethyia_Unit_DIFF.dds" />
+  <Texture file="Cartethyia_Unit_SREF.dds" />
+  <Texture file="Unit_Environment_Dull.dds" />
+  <Texture file="Unit_Environment_Sharp.dds" />
+  <Texture file="Unit_Irradiance.dds" />
+  <BoneUsage>
+    <Bone name="Base HumanRPalm" />
+    <Bone name="Base HumanLForearm" />
+    <Bone name="Base HumanSword01" />
+    <Bone name="Base HumanLUpperarm" />
+    <Bone name="Base HumanSpine2" />
+  </BoneUsage>
+  <TimedTrigger file="FX_Triggers_Longswordsman.ftsxml" />
+  <AnimGraph file="RUN_CHARGE_SHUFFLE_TO_SHUFFLE_RUN_CHARGE.dge" />
+  <AnimGraph file="SHUFFLE_STOP_GRAPH.dge" />
+  <AnimGraph file="START_RUN_CHARGE_SHUFFLE.dge" />
+  <AnimGraph file="ATTACK_CITY_TO_RUN_CHARGE_SHUFFLE.dge" />
+  <AnimGraph file="ATTACK_TO_RUN_CHARGE_SHUFFLE.dge" />
+  <AnimGraph file="RUN_CHARGE_SHUFFLE_LOOP.dge" />
+  <StateMachine file="1_OMNI_STATE_01.fsmxml" />
+  <AnimGraph file="MELEE_ATTACKS.dge" />
+  <AnimGraph file="FIDGETS_GRAPH.dge" />
+  <AnimGraph file="IDLE_GRAPH.dge" />
+  <AnimGraph file="STOP_RUNNING.dge" />
+  <AnimGraph file="TRANSITIONS_FOR_IDLES.dge" />
+  <AnimGraph file="FORTIFY_GRAPH.dge" />
+  <AnimGraph file="COMBAT_READY_GRAPH.dge" />
+  <AnimGraph file="FORTIFY_LEAVE_GRAPH.dge" />
+  <AnimGraph file="ENTER_COMBAT_READY_GRAPH.dge" />
+  <AnimGraph file="LEAVE_COMBAT_READY.dge" />
+  <AnimGraph file="DEATH_GRAPH.dge" />
+  <AnimGraph file="ENTER_BOMBARD_DEFEND_GRAPH.dge" />
+  <AnimGraph file="BOMBARD_DEFEND_LOOP_GRAPH.dge" />
+  <AnimGraph file="DEATH_FINAL_GRAPH.dge" />
+  <AnimGraph file="LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge" />
+  <AnimGraph file="ENTER_FORTIFY.dge" />
+  <AnimGraph file="FORTIFY_FIDGET_GRAPH.dge" />
+  <AnimGraph file="IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge" />
+</Asset>

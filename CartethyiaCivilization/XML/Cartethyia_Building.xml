@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BuildingClasses>
+    <Row>
+      <Type>BUILDINGCLASS_DUAL_RESONANCE</Type>
+      <Description>TXT_KEY_BUILDING_DUAL_RESONANCE</Description>
+      <DefaultBuilding>BUILDING_DUAL_RESONANCE</DefaultBuilding>
+    </Row>
+    <Row>
+      <Type>BUILDINGCLASS_CARTETHYIA_CAPITAL</Type>
+      <Description>TXT_KEY_BUILDING_CARTETHYIA_CAPITAL</Description>
+      <DefaultBuilding>BUILDING_CARTETHYIA_CAPITAL</DefaultBuilding>
+    </Row>
+    <Row>
+      <Type>BUILDINGCLASS_CARTETHYIA_WISDOM</Type>
+      <Description>TXT_KEY_BUILDING_CARTETHYIA_WISDOM</Description>
+      <DefaultBuilding>BUILDING_CARTETHYIA_WISDOM</DefaultBuilding>
+    </Row>
+  </BuildingClasses>
+
+  <!-- GreatWorkCount=-1 hides these automatic effects in the SP city UI and Civilopedia. -->
+  <Buildings>
+    <Row>
+      <Type>BUILDING_DUAL_RESONANCE</Type>
+      <BuildingClass>BUILDINGCLASS_DUAL_RESONANCE</BuildingClass>
+      <Cost>-1</Cost>
+      <FaithCost>-1</FaithCost>
+      <GreatWorkCount>-1</GreatWorkCount>
+      <Description>TXT_KEY_BUILDING_DUAL_RESONANCE</Description>
+      <Help>TXT_KEY_BUILDING_DUAL_RESONANCE_HELP</Help>
+      <NeverCapture>true</NeverCapture>
+      <NukeImmune>true</NukeImmune>
+      <ConquestProb>0</ConquestProb>
+      <ArtDefineTag>PALACE</ArtDefineTag>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>CARTETHYIA_ICON_ATLAS</IconAtlas>
+    </Row>
+    <Row>
+      <Type>BUILDING_CARTETHYIA_CAPITAL</Type>
+      <BuildingClass>BUILDINGCLASS_CARTETHYIA_CAPITAL</BuildingClass>
+      <Cost>-1</Cost>
+      <FaithCost>-1</FaithCost>
+      <GreatWorkCount>-1</GreatWorkCount>
+      <Description>TXT_KEY_BUILDING_CARTETHYIA_CAPITAL</Description>
+      <Help>TXT_KEY_BUILDING_CARTETHYIA_CAPITAL_HELP</Help>
+      <NeverCapture>true</NeverCapture>
+      <NukeImmune>true</NukeImmune>
+      <ConquestProb>0</ConquestProb>
+      <ArtDefineTag>PALACE</ArtDefineTag>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>CARTETHYIA_ICON_ATLAS</IconAtlas>
+    </Row>
+    <Row>
+      <Type>BUILDING_CARTETHYIA_WISDOM</Type>
+      <BuildingClass>BUILDINGCLASS_CARTETHYIA_WISDOM</BuildingClass>
+      <Cost>-1</Cost>
+      <FaithCost>-1</FaithCost>
+      <GreatWorkCount>-1</GreatWorkCount>
+      <Description>TXT_KEY_BUILDING_CARTETHYIA_WISDOM</Description>
+      <Help>TXT_KEY_BUILDING_CARTETHYIA_WISDOM_HELP</Help>
+      <NeverCapture>true</NeverCapture>
+      <NukeImmune>true</NukeImmune>
+      <ConquestProb>0</ConquestProb>
+      <ArtDefineTag>PALACE</ArtDefineTag>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>CARTETHYIA_ICON_ATLAS</IconAtlas>
+    </Row>
+  </Buildings>
+
+  <!-- National 10% plus capital 10% gives the capital a total of 20%. -->
+  <Building_YieldModifiers>
+    <Row><BuildingType>BUILDING_DUAL_RESONANCE</BuildingType><YieldType>YIELD_SCIENCE</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_DUAL_RESONANCE</BuildingType><YieldType>YIELD_CULTURE</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_DUAL_RESONANCE</BuildingType><YieldType>YIELD_PRODUCTION</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_CAPITAL</BuildingType><YieldType>YIELD_SCIENCE</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_CAPITAL</BuildingType><YieldType>YIELD_CULTURE</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_CAPITAL</BuildingType><YieldType>YIELD_PRODUCTION</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_FOOD</YieldType><Yield>30</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_PRODUCTION</YieldType><Yield>30</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_GOLD</YieldType><Yield>30</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_SCIENCE</YieldType><Yield>30</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_CULTURE</YieldType><Yield>30</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_FAITH</YieldType><Yield>30</Yield></Row>
+  </Building_YieldModifiers>
+
+  <Building_YieldChanges>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_FOOD</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_PRODUCTION</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_GOLD</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_SCIENCE</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_CULTURE</YieldType><Yield>10</Yield></Row>
+    <Row><BuildingType>BUILDING_CARTETHYIA_WISDOM</BuildingType><YieldType>YIELD_FAITH</YieldType><Yield>10</Yield></Row>
+  </Building_YieldChanges>
+</GameData>

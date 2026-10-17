@@ -1,0 +1,250 @@
+[
+  {
+    "file": "Cartethyia_attack_city.gr2",
+    "sha256": "2bff644c6eb0066ebcf69649e604577655b94763d781623093a80de8c3f54c76",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 41,
+    "bones": 27,
+    "max_matrix_error": 7.370605469247948e-05
+  },
+  {
+    "file": "Cartethyia_attacka.gr2",
+    "sha256": "e38d66e437f073f0a1ca457ab1f21a59d383e8d2c2150ed6752297dcd5ad117d",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 41,
+    "bones": 27,
+    "max_matrix_error": 7.705078124331521e-05
+  },
+  {
+    "file": "Cartethyia_attackb.gr2",
+    "sha256": "18079cf09aa3daf6c681da7b7f4853d340a735429b33a9b80ebb562b71307184",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 41,
+    "bones": 27,
+    "max_matrix_error": 7.96875000048658e-05
+  },
+  {
+    "file": "Cartethyia_bombard_defense.gr2",
+    "sha256": "f2324189b98c1fbb6c2a84c0550fa4b8a45c1b2d0a93925ea71987d75940bc0a",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 16,
+    "bones": 27,
+    "max_matrix_error": 5.6469726558816546e-05
+  },
+  {
+    "file": "Cartethyia_bombard_defense_idle.gr2",
+    "sha256": "550ec9abca7c1b7c0b80b1c098a1e3831aa9720f43bfe01a66ace65e3c181553",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 91,
+    "bones": 27,
+    "max_matrix_error": 6.193847656277285e-05
+  },
+  {
+    "file": "Cartethyia_bombard_defense_idle_trans_idlea.gr2",
+    "sha256": "e1946869df4f6f9b478fa8ba8f8a5fcb038f1919d4996925952c4ca208268fac",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 26,
+    "bones": 27,
+    "max_matrix_error": 6.485595703509262e-05
+  },
+  {
+    "file": "Cartethyia_charge_attack.gr2",
+    "sha256": "1b1d79a91b750fe27f0383fafe49fec5c52827f65bcb69c3fb8b8bf551b28365",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 41,
+    "bones": 27,
+    "max_matrix_error": 8.795166016284384e-05
+  },
+  {
+    "file": "Cartethyia_charge_run.gr2",
+    "sha256": "610fa21d44028eee7583793089f4f85713ef1ae1fc9988b9ea5393445480244d",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 21,
+    "bones": 27,
+    "max_matrix_error": 6.72119140574523e-05
+  },
+  {
+    "file": "Cartethyia_combat_ready.gr2",
+    "sha256": "6dfffad201a48fd8bad63e86a6422a7fd48f0e98b03d04c740932c51beeb5f86",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 5.6469726558816546e-05
+  },
+  {
+    "file": "Cartethyia_combat_ready_idle.gr2",
+    "sha256": "92924671baaa992cfbb925af763a397682c17a62305652dc0b20e3bcbdc7fe58",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 91,
+    "bones": 27,
+    "max_matrix_error": 6.193847656277285e-05
+  },
+  {
+    "file": "Cartethyia_combat_ready_idle_trans_idlea.gr2",
+    "sha256": "fb9895512c52957a11b7bc80019ff6e91740ee5768088424a6ec81883f50bbc4",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 21,
+    "bones": 27,
+    "max_matrix_error": 5.594482422566216e-05
+  },
+  {
+    "file": "Cartethyia_death_idlea.gr2",
+    "sha256": "7f9e666382ce86da130dfb716815611bc7f511473652b5d4fb5b8feae7a0e498",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 15,
+    "bones": 27,
+    "max_matrix_error": 3.9709472659410494e-05
+  },
+  {
+    "file": "Cartethyia_death_idleb.gr2",
+    "sha256": "f0bb6081cb191b0652202fdf31e332fc831f33a39c19e02b5003d5ffe933774d",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 15,
+    "bones": 27,
+    "max_matrix_error": 6.870117186963398e-05
+  },
+  {
+    "file": "Cartethyia_deatha.gr2",
+    "sha256": "4181bf18be5f354799c4b92b89a1d7f09d3453aa1ad455269c78e5824fe217db",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 8.659667969368456e-05
+  },
+  {
+    "file": "Cartethyia_deathb.gr2",
+    "sha256": "7e4c008339e416d9a117a0e40c8d93e1e39e26cdb1463ad05d99410b328c1e30",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 9.377441406854814e-05
+  },
+  {
+    "file": "Cartethyia_fidgeta.gr2",
+    "sha256": "025ffcbe4c6ba3adf30835db1398b4a6d80ea4497bd5f0aa1852bfd8fb31bf2c",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 151,
+    "bones": 27,
+    "max_matrix_error": 7.639160156713842e-05
+  },
+  {
+    "file": "Cartethyia_fidgetb.gr2",
+    "sha256": "c678b40491a551c81ddc0258fd13f9f29ef240fbe08fc52cbe4b85541f6dae9f",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 151,
+    "bones": 27,
+    "max_matrix_error": 7.639160156713842e-05
+  },
+  {
+    "file": "Cartethyia_fortify.gr2",
+    "sha256": "2d726d393c9c5e3cc0b5658b939e86526f9bc4bb99f51fe71efd950ccddde2e1",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 5.6469726558816546e-05
+  },
+  {
+    "file": "Cartethyia_fortify_idle.gr2",
+    "sha256": "b04b5103a506dad9bd5fbd484045c64081912e491d155011ef3abf725b46822c",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 91,
+    "bones": 27,
+    "max_matrix_error": 6.193847656277285e-05
+  },
+  {
+    "file": "Cartethyia_fortify_idle_fidget.gr2",
+    "sha256": "a07b888984f54a1f8d2292af1304d245d39587a39e395f3cea5b9f4075959f51",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 151,
+    "bones": 27,
+    "max_matrix_error": 7.639160156713842e-05
+  },
+  {
+    "file": "Cartethyia_fortify_idle_trans_combat_ready_idle.gr2",
+    "sha256": "15f66d42966e03e27d2acc8df5a7e35c10a98689615cd24614fdf6035d191f7a",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 21,
+    "bones": 27,
+    "max_matrix_error": 5.594482422566216e-05
+  },
+  {
+    "file": "Cartethyia_fortify_idle_trans_idlea.gr2",
+    "sha256": "59043d763bae5cfda6399745a613d731d3a7dfd0bdea28d985e2d851a9893c10",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 21,
+    "bones": 27,
+    "max_matrix_error": 5.594482422566216e-05
+  },
+  {
+    "file": "Cartethyia_idlea.gr2",
+    "sha256": "2a3920811338044933e4fc17a9c395f2ca07ae29576a86240e1a1458d9731f7b",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 181,
+    "bones": 27,
+    "max_matrix_error": 6.547851562288542e-05
+  },
+  {
+    "file": "Cartethyia_idlea_trans_idleb.gr2",
+    "sha256": "f2535fd249504da0b07247e47290319c420110f451a0049f8f2c1fdd1963ebbd",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 5.6469726558816546e-05
+  },
+  {
+    "file": "Cartethyia_idleb.gr2",
+    "sha256": "0fe5b272a9ddb20f6379eb4960053291c29421bf76c59139d82619f3dee8afca",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 181,
+    "bones": 27,
+    "max_matrix_error": 6.547851562288542e-05
+  },
+  {
+    "file": "Cartethyia_idleb_trans_idlea.gr2",
+    "sha256": "0ce5cd26aa60d4a5514a6f0cc6fdd7fdb5e230e5d58433c97dc08ddceb95a3f7",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 5.6469726558816546e-05
+  },
+  {
+    "file": "Cartethyia_run.gr2",
+    "sha256": "0c6cb6808b2c83c65bd6beee124062b1dc328463e9cd84ead6879d2642918149",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 21,
+    "bones": 27,
+    "max_matrix_error": 6.463623046215616e-05
+  },
+  {
+    "file": "Cartethyia_shuffle.gr2",
+    "sha256": "2126a017988c2239c883c3f2e931fc3c5f1e9b4a6d125ca5c4a57ab5a927ba9f",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 21,
+    "bones": 27,
+    "max_matrix_error": 7.9931640627251e-05
+  },
+  {
+    "file": "Cartethyia_stop_run.gr2",
+    "sha256": "d46722a5ca79b8c8ec5638482359ad2026a4715b3da07628c71bd75cc428d7a6",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 0.00026714190673793325
+  },
+  {
+    "file": "Cartethyia_stop_run_trans_idleb.gr2",
+    "sha256": "47930ca73f1844670101661751b7031ebb29d881578a9e65120e16136fadd990",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 31,
+    "bones": 27,
+    "max_matrix_error": 0.00037763519287103975
+  },
+  {
+    "file": "Cartethyia_victory.gr2",
+    "sha256": "7d2692204c877325215f8edd98070ffb1d587321be71b8471d59c56c57fcc24d",
+    "model_sha256": "3fd60b624c8f0d159cb1d8d1098d184640d2fe910c225b5726561e9f19646608",
+    "frames": 51,
+    "bones": 27,
+    "max_matrix_error": 6.485595703509262e-05
+  }
+]

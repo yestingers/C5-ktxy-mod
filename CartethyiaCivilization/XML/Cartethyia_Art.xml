@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <IconTextureAtlases>
+    <Row><Atlas>CARTETHYIA_ACTION_ATLAS</Atlas><IconSize>64</IconSize><Filename>Cartethyia_Actions_64.dds</Filename><IconsPerRow>3</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ACTION_ATLAS</Atlas><IconSize>45</IconSize><Filename>Cartethyia_Actions_45.dds</Filename><IconsPerRow>3</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ACTION_ATLAS</Atlas><IconSize>32</IconSize><Filename>Cartethyia_Actions_32.dds</Filename><IconsPerRow>3</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_LEADER_ATLAS</Atlas><IconSize>256</IconSize><Filename>Cartethyia_Leader_256.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_LEADER_ATLAS</Atlas><IconSize>128</IconSize><Filename>Cartethyia_Leader_128.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_LEADER_ATLAS</Atlas><IconSize>80</IconSize><Filename>Cartethyia_Leader_80.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_LEADER_ATLAS</Atlas><IconSize>64</IconSize><Filename>Cartethyia_Leader_64.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_LEADER_ATLAS</Atlas><IconSize>45</IconSize><Filename>Cartethyia_Leader_45.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_LEADER_ATLAS</Atlas><IconSize>32</IconSize><Filename>Cartethyia_Leader_32.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+
+    <Row><Atlas>CARTETHYIA_ICON_ATLAS</Atlas><IconSize>256</IconSize><Filename>Cartethyia_Icon_256.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ICON_ATLAS</Atlas><IconSize>128</IconSize><Filename>Cartethyia_Icon_128.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ICON_ATLAS</Atlas><IconSize>80</IconSize><Filename>Cartethyia_Icon_80.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ICON_ATLAS</Atlas><IconSize>64</IconSize><Filename>Cartethyia_Icon_64.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ICON_ATLAS</Atlas><IconSize>45</IconSize><Filename>Cartethyia_Icon_45.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ICON_ATLAS</Atlas><IconSize>32</IconSize><Filename>Cartethyia_Icon_32.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>256</IconSize><Filename>Cartethyia_Alpha_256.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>128</IconSize><Filename>Cartethyia_Alpha_128.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>80</IconSize><Filename>Cartethyia_Alpha_80.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>64</IconSize><Filename>Cartethyia_Alpha_64.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>48</IconSize><Filename>Cartethyia_Alpha_48.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>32</IconSize><Filename>Cartethyia_Alpha_32.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>24</IconSize><Filename>Cartethyia_Alpha_24.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+    <Row><Atlas>CARTETHYIA_ALPHA_ATLAS</Atlas><IconSize>16</IconSize><Filename>Cartethyia_Alpha_16.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+
+    <Row><Atlas>CARTETHYIA_UNIT_FLAG_ATLAS</Atlas><IconSize>32</IconSize><Filename>Cartethyia_UnitFlag_32.dds</Filename><IconsPerRow>1</IconsPerRow><IconsPerColumn>1</IconsPerColumn></Row>
+  </IconTextureAtlases>
+
+  <Colors>
+    <Row><Type>COLOR_PLAYER_CARTETHYIA_ICON</Type><Red>0.925</Red><Green>0.800</Green><Blue>0.420</Blue><Alpha>1</Alpha></Row>
+    <Row><Type>COLOR_PLAYER_CARTETHYIA_BACKGROUND</Type><Red>0.025</Red><Green>0.240</Green><Blue>0.285</Blue><Alpha>1</Alpha></Row>
+  </Colors>
+
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_CARTETHYIA</Type>
+      <PrimaryColor>COLOR_PLAYER_CARTETHYIA_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_CARTETHYIA_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+</GameData>

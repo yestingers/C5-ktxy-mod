@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Mod id="d7b3423c-8f4c-4253-992e-71e2419c53a6" version="6">
+  <Properties>
+    <Name>卡提希娅—启明之国 v1.0</Name>
+    <Stability>Beta</Stability>
+    <Teaser>[COLOR_CYAN]以智慧启明，以力量守护。开局获得双形态圣女，阵亡十回合后归来。[ENDCOLOR]</Teaser>
+    <Description>《文明5：美丽新世界》Super Power 子模组。双形态英雄、城市辅政、时代成长与定向裁决；v1.0更新人物圆形头像、开场画面、地图、技能图标、原生音乐和十回合复活。适用于 CIV5MPDLL 62 / Super Power 10FF 单人游戏。</Description>
+    <Authors>hunxi</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>0</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2969a0a-e4da-41cc-9e0b-19b29aa971d8" minversion="62" maxversion="999" title="(1)CIV5MPDLL" />
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="(2) Super Power - Rise of Hegemony" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" title="Expansion 2 - Brave New World" />
+  </Dependencies>
+  <References>
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="(2) Super Power - Rise of Hegemony" />
+  </References>
+  <Blocks />
+  <Files>
+    <File import="1">Art/Atlases/Cartethyia_Actions_64.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Actions_45.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Actions_32.dds</File>
+    <File import="0">XML/Cartethyia_Art.xml</File>
+    <File import="0">XML/Cartethyia_Text.xml</File>
+    <File import="0">XML/Cartethyia_Building.xml</File>
+    <File import="0">XML/Cartethyia_Trait.xml</File>
+    <File import="0">XML/Cartethyia_Promotions.xml</File>
+    <File import="0">XML/Cartethyia_UIText.xml</File>
+    <File import="0">XML/Cartethyia_Unit.xml</File>
+    <File import="0">XML/Cartethyia_Leader.xml</File>
+    <File import="0">XML/Cartethyia_Civilization.xml</File>
+    <File import="1">Lua/Cartethyia_StartUnit.lua</File>
+    <File import="1">Lua/Cartethyia_Rules.lua</File>
+    <File import="1">UI/Cartethyia_Actions.lua</File>
+    <File import="1">UI/Cartethyia_Panel.lua</File>
+    <File import="1">UI/Cartethyia_Panel.xml</File>
+    <File import="0">SQL/Cartethyia_Events.sql</File>
+    <File import="0">SQL/Cartethyia_UnitArt.sql</File>
+    <File import="1">Art/Models/Game/Cartethyia_Unit.gr2</File>
+    <File import="1">Art/Models/Game/Cartethyia_Unit.fxsxml</File>
+    <File import="1">Art/Models/Game/Cartethyia_Unit_DIFF.dds</File>
+    <File import="1">Art/Models/Game/Cartethyia_Unit_SREF.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Leader_256.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Leader_128.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Leader_80.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Leader_64.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Leader_45.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Leader_32.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Icon_256.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Icon_128.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Icon_80.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Icon_64.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Icon_45.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Icon_32.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_256.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_128.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_80.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_64.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_48.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_32.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_24.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Alpha_16.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_UnitFlag_32.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_DOM.dds</File>
+    <File import="1">Art/Atlases/Cartethyia_Map.dds</File>
+    <File import="0">Art/README.txt</File>
+    <File import="0">README.md</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_idlea.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fidgeta.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_idlea_trans_idleb.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_idleb.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fidgetb.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_idleb_trans_idlea.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fortify.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fortify_idle.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fortify_idle_fidget.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fortify_idle_trans_combat_ready_idle.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_fortify_idle_trans_idlea.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_combat_ready.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_combat_ready_idle.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_combat_ready_idle_trans_idlea.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_shuffle.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_run.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_stop_run.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_stop_run_trans_idleb.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_charge_run.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_charge_attack.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_attacka.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_attackb.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_attack_city.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_victory.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_bombard_defense.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_bombard_defense_idle.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_bombard_defense_idle_trans_idlea.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_deatha.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_death_idlea.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_deathb.gr2</File>
+    <File import="1">Art/Models/Game/Animations/Cartethyia_death_idleb.gr2</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Cartethyia_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_UIText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Unit.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cartethyia_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Cartethyia_UnitArt.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Cartethyia_Events.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Cartethyia_StartUnit.lua">
+      <Name>Cartethyia Dual Form Controller</Name>
+      <Description>Persists the unique hero, synchronizes city yields, and executes form changes and skills.</Description>
+    </EntryPoint>
+    <EntryPoint type="UnitPanelAddin" file="UI/Cartethyia_Actions.lua">
+      <Name>CartethyiaActions</Name>
+      <Description>Cartethyia unit actions</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UI/Cartethyia_Panel.xml">
+      <Name>CartethyiaPanel</Name>
+      <Description>Cartethyia status and targeting</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
